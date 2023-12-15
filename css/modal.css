@@ -1,0 +1,145 @@
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+#detailPokemon.hide,
+#fade.hide {
+    display: none;
+    opacity: 0;
+}
+
+#popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    height: 500px;
+    width: 300px;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.halfColorPokemon{
+    flex: 1;
+    height: 230px;
+    border-radius: 2rem 2rem 0 0;
+}
+
+#detailPokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.closeButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#closeModalButton{
+    padding: 1.3rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #030303;
+}
+
+#closeModalButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.7rem 0 1.3rem;
+    align-items: center;
+}
+
+.modalHeader .numberModal {
+    color: black;
+    opacity: .6;
+    font-size: .7rem;
+}
+
+.modalHeader .nameAndTypesModal .nameModal {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+.nameAndTypesModal .detailModal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.nameAndTypesModal .detailModal .typesModal {
+    display: flex;
+    gap: .3rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nameAndTypesModal .detailModal .typesModal .type {
+    filter: brightness(1.18);
+    color: white;
+    padding: .6rem 1.3rem;
+    margin: .25rem 0;
+    font-size: .7rem;
+    border-radius: 1rem;
+}
+
+#detailPokemon .imageModal{
+    display: flex;
+    justify-content: center;
+}
+
+#detailPokemon .imageModal img {
+    max-width: 100%;
+    height: 140px;
+    margin-top: .3rem;
+}
+
+#detailPokemon .statsModal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.BaseStatsTitleName {
+    margin-top: .8rem;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.statsModal .baseStatsModal {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    gap: 3rem;
+}
+
+.stats-name {
+    font-weight: bold;
+    margin: .3rem;
+    font-size: .9rem;
+}
+
+.stats-value {
+    margin: .3rem;
+    opacity: 70%;
+    font-size: .9rem;
+}
