@@ -24,4 +24,4 @@ O projeto possui as seguintes funcionalidades:
 
 ## Conclusão 🎉
 
-Este projeto é uma PokeDex Api funcional, desenvolvido com HTML, CSS e JavaScript. O projeto consome a API "PokeApi V2" e foi desenvolvido como objeto de mostrar como as linguagens de programação utilizadas podem criar uma página interativa e informativa.
+Este projeto é uma PokeDex Api funcional, desenvolvido com HTML, CSS e JavaScript. O projeto consome a API "PokeApi V2" e seu desenvolvimento tem como objeto mostrar como as linguagens de programação utilizadas podem criar uma página interativa e informativa.
